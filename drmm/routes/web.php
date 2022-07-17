@@ -17,5 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/', function () {
-    return view('nkps', ['name' => "nkpsnkps"]);
+    return view('nkps', ['name' => "ngô kim phụng sờ"]);
 })->name('nkps');
